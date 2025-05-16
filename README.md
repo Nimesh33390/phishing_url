@@ -30,5 +30,34 @@ pip install -r requirements.txt
 Start the ASGI server locally on port 8000:
 uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 
+Phishing_url/
+├── main.py
+├── Procfile
+├── requirements.txt             # Python dependencies
+
+android/                        
+├── AndroidManifest.xml          # Android permissions & config
+├── build.gradle                 # Android build file
+└── src/                         
+    └── main/java/com/example/fake/
+        └── MainActivity.java    # Android client logic
+
+assets/                         
+├── model.pkl                    # Serialized scikit‑learn model               
+
+backend/                         
+├── app/                         
+│   ├── main.py                  # FastAPI entrypoint
+└── requirements.txt             # Backend Python dependencies
+
+“Apk file Video”/               
+└── ML_model_47.mp4                     # Screen recording of Android app in action
+
+PhishingDetector.apk             # Pre‑built Android APK for quick testing
+
+README.md                        # Project overview and instructions (you are here)
+
+LICENSE                          # Project license (Apache 2.0)
+
 
 
